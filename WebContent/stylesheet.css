@@ -1,0 +1,52 @@
+html
+{
+	height:100%;
+}
+
+
+body
+{
+	background: -webkit-linear-gradient(#FFFFFF, #88a5f5); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FFFFFF, #88a5f5); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FFFFFF, #88a5f5); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FFFFFF, #88a5f5); /* Standard syntax */
+	background-attachment:fixed;
+	min-height:99%;
+	width:99%;
+	position: absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+
+a:link {
+color: #5981f1;
+}
+
+a:visited {
+color: #5981f1;
+}
+
+
+h1.title
+{
+	border-width: 2px;
+	float:left;
+	margin-top:-10px;
+	padding-top: -10px;
+}
+
+.button
+{
+	background-color:#7193f3;
+	border-style: outset;
+	border-width: 1px;
+	border-color: #5981f1;
+}
+
+#main
+{
+
+}
+
+
+

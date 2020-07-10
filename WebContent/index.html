@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Currency Converter</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+<body>
+	<h1> Welcome to the Currency Converter
+	</h1>
+	<div id="content">
+		<p>Choose the types of currencies you wish to convert and the amount.</p>
+	</div>
+	
+	<form id="form1" method="post" action="ConvertCurrency">
+		From: 
+		<select name="type">
+		</select>
+			<input type="text" size="10" name="fromCurrency" id="fromCurrency"/>
+		<br/>
+		To: 
+		<select name="type">
+		</select>
+		<input type="text" size="10" name="fromCurrency" id="toCurrency"/>
+		<br/>
+		<Button id="convert_button" class="button" onclick="" onmouseover="mouseOverButton(this);" onmouseout="mouseOutButton(this);">Convert</Button>
+	</form>
+</body>
+</html>
